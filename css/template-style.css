@@ -98,6 +98,9 @@ h6.headline, .h6.headline {
 .text-center {
   text-align: center;
 }
+.text-left {
+  text-align: left;
+}
 .text-right {
   text-align: right;
 }
@@ -1938,6 +1941,13 @@ nav.fixed .logo-dark, .fixed nav .logo-dark {
 }
 
 .logo img {
+  margin: 0;
+  max-width: 200px;
+  position: relative;
+  top: 12px;
+  width: 100%;
+}
+.logo img.secondary {
   margin: 0;
   max-width: 200px;
   position: relative;
